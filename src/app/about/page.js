@@ -6,7 +6,7 @@ export default function Home() {
     style:{minHight:'50svh', background:'black', color:'white'},
     children: [
       jo("div", { children: [
-        jo("h1", { t: "About" }),
+        jo("h1", { t: "Aboutttttttt" }),
         
       ] },),
     ]
