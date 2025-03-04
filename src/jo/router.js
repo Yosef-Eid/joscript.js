@@ -271,7 +271,7 @@ class Router {
     const div = document.createElement('div');
     div.innerHTML = `<div style="width:100%;height:100vh;display:flex; flex-direction:column; justify-content:center;align-items:center; background-color: black; color:'white'">
       <h1 style="color: white;">Page Not Found</h1>
-      <img src="/404 error with portals-pana.svg" width="500" />
+      <img src="/404 error with portals-pana.svg" width="50%" />
     </div>`;
     return () => div;
   }
