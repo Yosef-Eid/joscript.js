@@ -1,26 +1,11 @@
 import { jo } from "../jo/jo.js";
-import {users} from '../app/data.js';
+
 
 export default function Home() {
-  return jo("div", {
+  return jo("div", { class:'flex flex-col justify-center items-center gap-12 h-screen',
     children: [
-      
-      jo("div", {
-        children: [
-          jo("h1", {t: "Home" }),
-          jo("ul", { children: [
-              ...users.map(user => (
-                jo("li", {
-                  children: [
-                    jo("a", { onclick: () => history.pushState({}, '', `${user.id}`) , href: `/${user.id}`, t: `Name: ${user.name}` }),
-                    jo("span", { t: `Email: ${user.email}` }),
-                  ]
-                })
-              ))
-            ]
-          })
-        ]
-      },),
+      jo("h1", {t: "welcome to joscript", class:'font-bold text-4xl'}),
+      jo("img", {src: "/joscript-logo.png", id:'jo', width: "150px"}),
     ]
   },);
 }
