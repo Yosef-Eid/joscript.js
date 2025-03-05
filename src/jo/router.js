@@ -264,7 +264,7 @@ class Router {
       root.appendChild(renderFunction());
     }
 
-    if (addToHistory) history.pushState({}, '', url);
+    // if (addToHistory) await history.pushState({}, '', url);
   }
 
   renderNotFound() {

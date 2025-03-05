@@ -2,9 +2,6 @@ import { jo } from "../jo/jo.js";
 import {users} from '../app/data.js';
 
 export default function Home() {
-
-  
-
   return jo("div", {
     children: [
       

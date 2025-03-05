@@ -3,7 +3,7 @@ import { users } from '../../app/data'
 
 function page() {
   const id = location.pathname.slice(1)
-  const user = users.find(user => user.id == id)  
+  const user = users.find(user => user.id == id)
   if (!user) return jo("div", { t: "User not found" })
 
   return (
