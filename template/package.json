@@ -1,10 +1,7 @@
 {
-  "name": "joscriptjs",
-  "version": "1.0.5",
+  "name": "my-app",
+  "version": "1.0.0",
   "type": "module",
-  "bin": {
-    "joscriptjs": "./cli.js"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,10 +9,6 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.9",
-    "fs-extra": "^11.3.0",
     "tailwindcss": "^4.0.9"
-  },
-  "devDependencies": {
-    "vite": "^6.2.0"
   }
 }
