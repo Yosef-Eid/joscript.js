@@ -45,6 +45,8 @@ npx joscriptjs create my-app
  وهتحط جواه ال navbar بتاعك او الحاجه اللي انت عايزها تظهر في كل الصفحات وهو اوتوماتيك هيضيف الحاجه دي في كل الصفحات
 </div>
 
+<img src="https://github.com/user-attachments/assets/9b1fd2dc-ceaa-4ece-bffc-329c00cf0165">
+
 
  <h1>Example</h1>
  <p>Accordingly, Welcome to joscript will be displayed in your browser</p>
